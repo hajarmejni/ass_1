@@ -511,6 +511,7 @@ Bien entendu, pour pouvoir utiliser `zip()`, il faut que les listes soient de m√
 2. [Intersection de listes](ex4.2)
 3. [Union de listes](ex4.3)
 
+   EX1:
    
    l =[5,12,48,-2,0,-48,5,12]
 def posmax(l):
@@ -521,3 +522,17 @@ def posmax(l):
             k=i
     return m,k   
 print("Max est ", posmax(l))
+
+EX2:
+
+l1=[2,5,8,12,14,3]
+l2=[3,1,-1]
+
+
+def intersection(l1,l2):
+  l3=list()
+  for e in l1:
+    if e in l2:
+        l3.append(e)
+  return l3
+print(intersection(l1,l2))
