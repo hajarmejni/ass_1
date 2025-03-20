@@ -14,7 +14,7 @@ kernelspec:
 ---
 
 # Les listes
-M.MEJNI
+HAJAR MEJNI
 
 ```{admonition} Définition
 
